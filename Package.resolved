@@ -3,10 +3,10 @@
     "pins": [
       {
         "package": "TDLibFramework",
-        "repositoryURL": "https://github.com/Swiftgram/TDLibFramework",
+        "repositoryURL": "https://github.com/moderato-app/TDLibFramework",
         "state": {
           "branch": null,
-          "revision": "79335b7258e5162778b7dab599a5c25159d8736b",
+          "revision": "839b0724ee0cdc97370e66b519c5736a81581440",
           "version": "1.8.48-b6303f0c"
         }
       }

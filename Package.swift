@@ -9,7 +9,7 @@ import PackageDescription
 let package = Package(
     name: "TDLibKit",
     platforms: [
-        // Following versions of https://github.com/Swiftgram/TDLibFramework/blob/main/Package.swift
+        // Following versions of https://github.com/moderato-app/TDLibFramework/blob/main/Package.swift
         .iOS(.v12),
         .macOS(.v10_15),
         .watchOS(.v4),
@@ -21,7 +21,7 @@ let package = Package(
             targets: ["TDLibKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Swiftgram/TDLibFramework", .exact("1.8.48-b6303f0c")),
+        .package(url: "https://github.com/moderato-app/TDLibFramework", .exact("1.8.48-b6303f0c")),
     ],
     targets: [
         .target(

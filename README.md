@@ -1,10 +1,10 @@
 # TDLibKit
 
-[![CI](https://github.com/Swiftgram/TDLibKit/actions/workflows/ci.yml/badge.svg)](https://github.com/Swiftgram/TDLibKit/actions/workflows/ci.yml)
+[![CI](https://github.com/moderato-app/TDLibKit/actions/workflows/ci.yml/badge.svg)](https://github.com/moderato-app/TDLibKit/actions/workflows/ci.yml)
 
 TDLibKit is a native Swift wrapper for [TDLib](https://github.com/tdlib/td) with support for iOS, macOS, watchOS, tvOS and visionOS.
 
-Powered by pre-built multi-platform [TDLibFramework](https://github.com/Swiftgram/TDLibFramework) implementation
+Powered by pre-built multi-platform [TDLibFramework](https://github.com/moderato-app/TDLibFramework) implementation
 of [TDLib](https://github.com/tdlib/td) and generated sources with [tl2swift](scripts/tl2swift)
 
 ## Installation
@@ -12,16 +12,16 @@ of [TDLib](https://github.com/tdlib/td) and generated sources with [tl2swift](sc
 ### Xcode
 
 1. Install Latest Xcode
-2. Add `https://github.com/Swiftgram/TDLibKit` as SPM dependency in `Project > Swift Packages`. This could take a while
+2. Add `https://github.com/moderato-app/TDLibKit` as SPM dependency in `Project > Swift Packages`. This could take a while
    cause it downloads ~300mb zip file with binary
-   from [TDLibFramework dependency](https://github.com/Swiftgram/TDLibFramework)
+   from [TDLibFramework dependency](https://github.com/moderato-app/TDLibFramework)
 3. Add `TDLibKit` as your target dependency.
 4. Code!
 
 ### Cocoapods
 
 Integration requires similar
-to [TDLibFramework Cocoapods & Flutter guide](https://github.com/Swiftgram/TDLibFramework/blob/main/docs/COCOAPODS-and-FLUTTER.md)
+to [TDLibFramework Cocoapods & Flutter guide](https://github.com/moderato-app/TDLibFramework/blob/main/docs/COCOAPODS-and-FLUTTER.md)
 adaptation.
 
 ## Usage
