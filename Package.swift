@@ -21,7 +21,7 @@ let package = Package(
             targets: ["TDLibKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/moderato-app/TDLibFramework", .exact("1.8.48-b6303f0c")),
+        .package(url: "https://github.com/moderato-app/TDLibFramework", .exact("1.8.49-84a35e5a")),
     ],
     targets: [
         .target(
