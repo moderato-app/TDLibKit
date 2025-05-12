@@ -45,7 +45,7 @@ let package = Package(
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "tdlibframework_version", help="Swiftgram/TDLibFramework version"
+        "tdlibframework_version", help="moderato-app/TDLibFramework version"
     )
 
     args = parser.parse_args()

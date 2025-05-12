@@ -19,7 +19,7 @@ def main(tdlibframework_version: str = None):
                 "release",
                 "list",
                 "--repo",
-                "Swiftgram/TDLibFramework",
+                "moderato-app/TDLibFramework",
                 "--limit",
                 "1",
                 "--json",
